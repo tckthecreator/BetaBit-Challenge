@@ -39,3 +39,8 @@ lerna-debug.log*
 
 # lock
 yarn.lock
+
+# testes
+.e2e-spec.ts 
+.e2e.json
+.spec.ts
