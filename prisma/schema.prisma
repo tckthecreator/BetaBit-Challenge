@@ -9,9 +9,10 @@ datasource db {
 }
 
 model User {
-  id               Int     @id @default(autoincrement())
-  nome             String  @db.VarChar(255)
-  email            String  @unique @db.VarChar(255)
-  celular          Int     @unique
-  dataDeNascimento DateTime
+  id               Int      @id @default(autoincrement())
+  nome             String   @db.VarChar(255)
+  email            String   @unique @db.VarChar(255)
+  celular          String      @unique
+  dataDeNascimento DateTime @db.Date
+  foto             String
 }
