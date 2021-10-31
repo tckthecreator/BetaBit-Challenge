@@ -24,15 +24,16 @@ git clone https://github.com/tckthecreator/BetaBit-Challenge.git
 npm install
 ```
 
-3° Passo - Inicie o servidor e acesse http://localhost:3000 para receber informações sobre as API Paths disponíveis
+3° Passo - Atualize o prisma
+```
+npx prisma generate
+```
+
+4° Passo - Inicie o servidor e acesse http://localhost:3000 para receber informações sobre as API Paths disponíveis
 ```
 npm start
 ```
 
-4° Passo - Atualize o prisma
-```
-npx prisma generate
-```
 
 # Usando o Postman 
 > O Postman é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Isso é feito, permitindo aos usuários criar e salvar solicitações HTTP e HTTPs simples e complexas, bem como ler suas respostas.
