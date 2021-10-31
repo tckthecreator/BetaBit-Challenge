@@ -25,7 +25,7 @@ npm install
 3° Passo - Inicie o servidor e acesse http://localhost:3000 para receber informações sobre as API Paths disponíveis
 ```
 npm start
-``'
+```
 
 4° Passo - Atualize o prisma
 ```
