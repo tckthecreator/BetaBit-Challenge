@@ -3,6 +3,8 @@
 
 > Esse é meu projeto de um desafio para vaga back-end, onde é exigido que se faça um crud com cadastro de nome, email, celular, data de nascimento e foto de um usuário.
 
+### Observação: Neste projeto é exposto um banco de dados público apenas para fins de testes. Nunca deixa o arquivo .env passar para a nuvem. Por favor não usar emails e fotos reais
+
 ## Tecnologias Utilizadas
 - NodeJS
 - NestJS
