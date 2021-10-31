@@ -26,6 +26,12 @@ npm install
 ```
 npm start
 ```
+4° Passo - Renomeie o arquivo .env.test para .env
+
+5° Passo - Atualize o prisma
+```
+npx prisma generate
+```
 
 # Usando o Postman 
 > O Postman é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Isso é feito, permitindo aos usuários criar e salvar solicitações HTTP e HTTPs simples e complexas, bem como ler suas respostas.
